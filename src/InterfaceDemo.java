@@ -13,7 +13,6 @@ interface  A {
     default void method1(){
         System.out.println("I am default method");
     }
-
     default void reset(){
         System.out.println("a reset");
     }
@@ -30,15 +29,15 @@ interface B extends  A{
         A.super.reset();
     }
 }
+
 /*two interface can not have same default method
 * this will cause an exception*/
 interface D{
-
 }
+
 class C implements B,D{
     @Override
     public void method2() {
         System.out.println("I am in method2");
     }
-
 }
