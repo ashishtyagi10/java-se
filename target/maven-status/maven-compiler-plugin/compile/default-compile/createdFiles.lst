@@ -6,9 +6,11 @@ C.class
 InterfaceDemo.class
 ExceptionDemo.class
 Main.class
+TrayIconDemo.class
 A.class
 Break.class
 B.class
+StreamUsage.class
 Factorial.class
 outer.class
 outer$staticInner.class
