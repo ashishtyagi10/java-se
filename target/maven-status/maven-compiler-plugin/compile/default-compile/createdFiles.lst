@@ -12,5 +12,7 @@ Break.class
 B.class
 StreamUsage.class
 Factorial.class
+watchDir\WatchDir$1.class
+watchDir\WatchDir.class
 outer.class
 outer$staticInner.class

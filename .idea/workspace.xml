@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9c35092-b6e1-44dd-b102-1ab6101c672a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/watchDir/WatchDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OrderingBasedOnExternalList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/watchDir/Palindrom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-se.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-se.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/java-se-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-se-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,14 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WatchDir">
-    <configuration name="ExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionDemo" />
-      <module name="java-se" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OrderingBasedOnExternalList">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="java-se" />
@@ -87,15 +87,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamUsage" />
+    <configuration name="OrderingBasedOnExternalList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrderingBasedOnExternalList" />
       <module name="java-se" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrayIconDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrayIconDemo" />
+    <configuration name="Palindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="watchDir.Palindrom" />
+      <module name="java-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="watchDir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamUsage" />
       <module name="java-se" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,30 +129,36 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ExceptionDemo" />
       <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.StreamUsage" />
-      <item itemvalue="Application.TrayIconDemo" />
       <item itemvalue="Application.WatchDir" />
+      <item itemvalue="Application.Palindrom" />
+      <item itemvalue="Application.OrderingBasedOnExternalList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderingBasedOnExternalList" />
+        <item itemvalue="Application.Palindrom" />
         <item itemvalue="Application.WatchDir" />
         <item itemvalue="Application.StreamUsage" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.ExceptionDemo" />
-        <item itemvalue="Application.TrayIconDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.19435029" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@19da4e0f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@19da4e0f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4ab737f0" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +194,8 @@
       <workItem from="1568161726439" duration="183000" />
       <workItem from="1568161935771" duration="890000" />
       <workItem from="1568772803233" duration="293000" />
-      <workItem from="1569805028169" duration="1254000" />
+      <workItem from="1569805028169" duration="3431000" />
+      <workItem from="1574215247472" duration="3037000" />
     </task>
     <servers />
   </component>
